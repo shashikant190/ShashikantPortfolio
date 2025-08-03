@@ -25,6 +25,16 @@ const Projects = () => {
       live: "https://jyotax.ai/",
       featured: true
     },
+          {
+      title: "Ai Tutor for History Subject (MCA Project)",
+      category: "ai",
+      description: "Developed an AI-powered history learning platform featuring interactive timelines, quizzes, and a conversational tutor to enhance engagement and historical understanding.",
+      image: "/Aitutor.png",
+      tech: ["Next.js", "Supabase", "LLMs", "AI/ML"],
+      github: "https://github.com/shashikant190/AiTutorFrontEnd",
+      live: "https://historyaitutor.vercel.app/",
+      featured: true
+    },
     {
       title: "RRBCEA Educational Browser Games",
       category: "games",
@@ -33,7 +43,7 @@ const Projects = () => {
       tech: ["JavaScript", "Phaser.js", "Vercel", "Game Development"],
       github: "https://github.com/shashikant190/gardencraft-game",
       live: "http://games.rrbcea.org/",
-      featured: false
+      featured: true
     },
     {
       title: "BharatMitra Chatbot",
@@ -75,16 +85,18 @@ const Projects = () => {
       live: "https://jbe-portfolio.vercel.app/",
       featured: false
     },
-      {
-      title: "Ai Tutor for History Subject (MCA Project)",
-      category: "ai",
-      description: "Developed an AI-powered history learning platform featuring interactive timelines, quizzes, and a conversational tutor to enhance engagement and historical understanding.",
-      image: "/Aitutor.png",
-      tech: ["Next.js", "Supabase", "LLMs", "AI/ML"],
-      github: "https://github.com/shashikant190/AiTutorFrontEnd",
-      live: "https://historyaitutor.vercel.app/",
-      featured: false
-    }
+
+    {
+  "title": "Shashikant Maurya – Personal Portfolio",
+  "description": "A fully responsive personal portfolio website showcasing my work, experience, skills, community contributions, and certifications. Designed with a clean UI, built for performance and clarity.",
+  "tech": ["Next.js", "Tailwind CSS", "Vercel", "JavaScript"],
+  "category": "Web Apps",
+  "image": "Shashikantportfolio.png",
+  "live": "https://shashikant-portfolio.vercel.app/",
+  "github": "https://github.com/shashikant190/ShashikantPortfolio",
+  "featured": false
+}
+
 
   ];
 
