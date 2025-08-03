@@ -33,10 +33,22 @@ const Header = () => {
     >
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="text-2xl font-bold">
-            <span className="text-white">Shashikant</span>
-            <span className="text-maroon-500">Maurya</span>
-          </div>
+          {/* Logo + Name block like 'PERSIST VENTURES' style */}
+          <a href="/" className="flex items-center space-x-3 group">
+            <img
+              src="/SM.png" // ⬅️ Replace with your actual logo name in /public
+              alt="SM Logo"
+              className="w-9 h-9 object-contain"
+            />
+            <div className="leading-tight">
+              <h1 className="text-xl md:text-2xl font-bold text-white tracking-wide group-hover:text-maroon-400 transition-colors">
+                SHASHIKANT
+              </h1>
+              <p className="text-xs text-gray-300 tracking-widest">
+                MAURYA
+              </p>
+            </div>
+          </a>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
