@@ -45,12 +45,12 @@ const Hero = () => {
 
           {/* Main Content */}
           <div className="max-w-4xl mx-auto">
-            <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-white via-maroon-400 to-white bg-clip-text text-transparent animate-fade-in">
-              Namaste, I&apos;m <span className="text-maroon-500">Shashikant Maurya</span>
+            <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-white via--400 to-white bg-clip-text text-transparent animate-fade-in">
+              Namaste, I&apos;m <span className="text-white-500">Shashikant Maurya</span>
             </h1>
             
             <p className="text-xl md:text-2xl text-gray-300 mb-8 animate-fade-in-delay">
-              Software Developer | Entrepreneurial Program Facilitator
+              Software Developer
             </p>
             
             <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto animate-fade-in-delay-2">
