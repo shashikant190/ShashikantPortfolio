@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { ExternalLink, Github, Play } from 'lucide-react';
+import { ExternalLink, Play } from 'lucide-react';
+// import { ExternalLink, Github, Play } from 'lucide-react';
 
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('all');
@@ -11,7 +12,7 @@ const Projects = () => {
       description: "Full-stack portal for entrepreneurs to create profiles and network with real-time authentication",
       image: "/BENweb.png",
       tech: ["Next.js", "Supabase", "PostgreSQL", "Authentication"],
-      github: "https://github.com/shashikant190/ben-community",
+      // github: "https://github.com/shashikant190/ben-community",
       live: "https://ben-community.vercel.app/",
       featured: true
     },
@@ -21,7 +22,7 @@ const Projects = () => {
       description: "Redesigned static website into responsive, fast-loading platform with improved UI/UX and SEO",
       image: "Jyotaxweb.png",
       tech: ["Next.js", "Tailwind CSS", "SEO", "Responsive Design"],
-      github: "https://github.com/shashikant190/JyotaxWebPlatform",
+      // github: "https://github.com/shashikant190/JyotaxWebPlatform",
       live: "https://jyotax.ai/",
       featured: true
     },
@@ -31,7 +32,7 @@ const Projects = () => {
       description: "Developed an AI-powered history learning platform featuring interactive timelines, quizzes, and a conversational tutor to enhance engagement and historical understanding.",
       image: "/Aitutor.png",
       tech: ["Next.js", "Supabase", "LLMs", "AI/ML"],
-      github: "https://github.com/shashikant190/AiTutorFrontEnd",
+      // github: "https://github.com/shashikant190/AiTutorFrontEnd",
       live: "https://historyaitutor.vercel.app/",
       featured: true
     },
@@ -41,7 +42,7 @@ const Projects = () => {
       description: "Interactive educational games for children with animations and audio feedback for improved learning",
       image: "/Gardencraft.png",
       tech: ["JavaScript", "Phaser.js", "Vercel", "Game Development"],
-      github: "https://github.com/shashikant190/gardencraft-game",
+      // github: "https://github.com/shashikant190/gardencraft-game",
       live: "http://games.rrbcea.org/",
       featured: true
     },
@@ -51,7 +52,7 @@ const Projects = () => {
       description: "AI chatbot to fetch and present business info from Supabase backend using natural language queries",
       image: "/Bharatmitra.png",
       tech: ["Python", "LLMs", "Supabase", "AI/ML"],
-      github: "https://github.com/shashikant190/ben-community",
+      // github: "https://github.com/shashikant190/ben-community",
       live: "https://ben-community.vercel.app/",
       featured: false
     },
@@ -61,7 +62,7 @@ const Projects = () => {
       description: "Internal tool to manage partner/client leads and team follow-ups, replacing spreadsheet-based tracking",
       image: "/LMS.png",
       tech: ["Next.js", "Supabase", "CRM", "Internal Tools"],
-      github: "https://github.com/shashikant190/LeadManagementSystem",
+      // github: "https://github.com/shashikant190/LeadManagementSystem",
       live: "#",
       featured: false
     },
@@ -71,7 +72,7 @@ const Projects = () => {
       description: "Developed interactive educational games for children with animations and audio feedback to enhance learning, along with a user analytics dashboard to track engagement and user activity.",
       image: "/Analytics.png",
       tech: ["Next.js", "Supabase"],
-      github: "https://github.com/shashikant190/usergarden",
+      // github: "https://github.com/shashikant190/usergarden",
       live: "https://usergarden.vercel.app/",
       featured: false
     },
@@ -81,7 +82,7 @@ const Projects = () => {
       description: "Developed interactive educational games for children with animations and audio feedback to enhance learning, along with a user analytics dashboard to track engagement and user activity.",
       image: "/JBEportfolio.png",
       tech: ["Next.js"],
-      github: "https://github.com/shashikant190/jbe-portfolio",
+      // github: "https://github.com/shashikant190/jbe-portfolio",
       live: "https://jbe-portfolio.vercel.app/",
       featured: false
     },
@@ -93,7 +94,7 @@ const Projects = () => {
   "category": "Web Apps",
   "image": "Shashikantportfolio.png",
   "live": "https://shashikant-portfolio.vercel.app/",
-  "github": "https://github.com/shashikant190/ShashikantPortfolio",
+  // "github": "https://github.com/shashikant190/ShashikantPortfolio",
   "featured": false
 }
 
@@ -166,12 +167,12 @@ const Projects = () => {
                     >
                       <Play size={20} />
                     </a>
-                    <a
+                    {/* <a
                       href={project.github}
                       className="p-3 bg-gray-800 text-white rounded-full hover:bg-gray-700 transition-colors duration-300"
                     >
                       <Github size={20} />
-                    </a>
+                    </a> */}
                   </div>
 
                   {project.featured && (
@@ -211,13 +212,13 @@ const Projects = () => {
                       <ExternalLink size={16} className="mr-1" />
                       Live Demo
                     </a>
-                    <a
+                    {/* <a
                       href={project.github}
                       className="flex items-center text-gray-400 hover:text-white transition-colors duration-300"
                     >
                       <Github size={16} className="mr-1" />
                       Code
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>
